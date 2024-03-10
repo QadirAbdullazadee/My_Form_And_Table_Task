@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <!------- Main-section ------->
+    <main>
+      <!------- Section-container ------->
+      <section>
+        <!------- Form-container ------->
+
+        <div class="form-container">
+          <!-------- Form-section ------->
+          <form autocomplete="off">
+            <div class="text-section">
+              <h1>Registration</h1>
+            </div>
+
+            <div class="img-input">
+              <img src="src/assets/img/login.png" alt="" />
+            </div>
+
+            <div class="first-input-box">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Enter your name"
+                required
+              />
+              <label for="surname">Surname</label>
+              <input
+                id="surname"
+                type="text"
+                placeholder="Enter your surname"
+                required
+              />
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+              <label for="number">Telephone number</label>
+              <input
+                id="number"
+                type="tel"
+                placeholder="Enter your telephone number "
+                required
+              />
+              <label for="birthday">Select your date of birth</label>
+              <input id="birthday" type="date" required />
+            </div>
+
+            <div class="second-input-box">
+              <label for="age">Enter your age</label>
+              <input
+                id="age"
+                type="number"
+                placeholder="Enter your age"
+                required
+              />
+              <label>Gender :</label>
+              <label for="male">Male</label>
+              <input name="gender" type="radio"  id="male"/>
+              <label for="female">Female</label>
+              <input name="gender" type="radio" id="female" />
+            </div>
+
+            <div class="select-input-box">
+              <label for="color">My favorite color</label>
+              <input type="color" required />
+              <label for="">Your place of birth</label>
+              <select>
+                <option>Baku</option>
+                <option>Saray</option>
+                <option>Khirdalan</option>
+                <option>Nardaran</option>
+                <option>Binagadi</option>
+              </select>
+            </div>
+
+            <div class="text-area">
+              <label for="message">Message</label>
+              <textarea name="" id="message"></textarea>
+            </div>
+
+            <div class="remember-me">
+              <label for="remember me">Remember me</label>
+              <input type="checkbox" />
+            </div>
+
+            <div class="button-box">
+              <button type="submit">Register now</button>
+            </div>
+          </form>
+          <!------- End-form-section ------->
+        </div>
+        <!------- End form-container ------->
+      </section>
+      <!------- End-section-container ------->
+    </main>
+    <!------- End main-container ------->
+
+    <!------- Table-containner ------->
+    <div class="table-container">
+      <table>
+        <caption>
+          Suitable table for registration form
+        </caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Telephone number</th>
+            <th>Birtday</th>
+            <th>Color</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Address</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Anar</td>
+            <td>Heyderov</td>
+            <td>*******</td>
+            <td>anar_heyderov2000@gmail.com</td>
+            <td>070-213-34-55</td>
+            <td>01.08.2000</td>
+            <td>Red</td>
+            <td>24</td>
+            <td>Male</td>
+            <td>Baku</td>
+            <td>I am a Frontend developer</td>
+          </tr>
+          <tr>
+            <td>Eli</td>
+            <td>Eliyev</td>
+            <td>*******</td>
+            <td>eliyev_eli1999@gmail.com</td>
+            <td>051-233-41-21</td>
+            <td>02.03.1999</td>
+            <td>Blue</td>
+            <td>25</td>
+            <td>Male</td>
+            <td>Nardaran</td>
+            <td>I am a Backend developer</td>
+          </tr>
+          <tr>
+            <td>Zehra</td>
+            <td>Huseynova</td>
+            <td>*******</td>
+            <td>zehrahuseynova_2002@gmail.com</td>
+            <td>099-233-45-21</td>
+            <td>01.01.2002</td>
+            <td>Green</td>
+            <td>22</td>
+            <td>Female</td>
+            <td>Khirdalan</td>
+            <td>I am a Mernstack developer</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!------- End-table-container ------->
+  </body>
+</html>
